@@ -1,0 +1,89 @@
+<!DOCTYPE html>   
+<html>   
+<head>  
+<meta name="viewport" content="width=device-width, initial-scale=1">  
+<title> Login Page </title>  
+<style>   
+Body {  
+  font-family: Calibri, Helvetica, sans-serif;  
+  background-color: pink;  
+}  
+button {   
+        background-color: #4CAF50;   
+        width: 100%;  
+        color: rgb(228, 206, 165);   
+        padding: 15px;   
+        margin: 10px 0px;   
+        border: none;   
+        cursor: pointer;   
+}
+
+ input[type=text], input[type=password] {   
+        width: 100%;   
+        margin: 8px 0;  
+        padding: 12px 20px;   
+        display: inline-block;   
+        border: 2px solid green;   
+        box-sizing: border-box;   
+    }  
+ button:hover {   
+        opacity: 0.7;   
+    }   
+  .cancelbtn {   
+        width: auto;   
+        padding: 10px 18px;  
+        margin: 10px 5px;  
+    }   
+        
+     
+ .container {   
+        padding: 50px;   
+        background-color: lightblue;  
+        width: 30%;
+        height: 80%;
+        margin: auto;
+        margin-top: 150px;
+        border-radius: 20px;
+}
+    
+.nme {
+    margin: 8px;
+}
+</style>   
+</head>    
+<body>    
+    <center> <h1> Login Form </h1> </center>   
+    <form>  
+        <div class="container">
+            <div class="nme">
+                <label>Username : </label> 
+            </div>
+
+            <div>   
+                <input type="text" placeholder="Enter Username" name="username" required> 
+            </div>
+
+            <div class="nme">
+                <label>Password : </label> 
+            </div>  
+
+            <div>
+                <input type="password" placeholder="Enter Password" name="password" required> 
+            </div>
+             
+            <div>
+                <input type="checkbox" checked="checked"> Remember me  
+            </div>
+
+            <div>
+                <button type="submit">Login</button> 
+            </div>
+              
+             <div>
+                <button type="button" class="cancelbtn"> Cancel</button>   
+                Forgot <a href="#"> password? </a> 
+            </div>  
+        </div>   
+    </form>     
+</body>     
+</html>  
